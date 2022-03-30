@@ -12,6 +12,7 @@ public class ConditionalStatements {
         return "I don't know";
     }
 
+    // Switch required: 'char, byte, short, int, Character, Byte, Short, Integer, String, or an enum'
     public static String convertNumberToEnglishWordPlan2(int value) {
         String engWord = "I don't know, Please";
         switch (value) {
