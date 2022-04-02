@@ -1,17 +1,6 @@
-package com.github.paradigms.oop;
+package com.github.paradigms.oop.polymorphism;
 
-public interface Bicycle2 {
-    //  wheel revolutions per minute
-    void changeCadence(int newValue);
-
-    void changeGear(int newValue);
-
-    void speedUp(int increment);
-
-    void applyBrakes(int decrement);
-}
-
-class ACMEBicycle implements Bicycle2 {
+class ACMEBicycle implements Bicycle {
 
     int cadence = 0;
     int speed = 0;
