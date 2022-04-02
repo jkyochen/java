@@ -1,6 +1,6 @@
 package com.github.typesystem;
 
-public class ArrayDemo {
+public class Array {
 
     int[] aArray;
     int[] bArray = new int[10];
