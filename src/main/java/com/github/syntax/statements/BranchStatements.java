@@ -1,4 +1,4 @@
-package com.github.syntax;
+package com.github.syntax.statements;
 
 public class BranchStatements {
     // break, continue, return
