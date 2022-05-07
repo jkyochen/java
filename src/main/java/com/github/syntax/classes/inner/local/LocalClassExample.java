@@ -6,6 +6,7 @@ public class LocalClassExample {
 
     public static void validatePhoneNumber(String phoneNumber1, String phoneNumber2) {
 
+        // final or effectively final.
         final int numberLength = 10;
 
         class PhoneNumber {
